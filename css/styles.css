@@ -173,7 +173,7 @@ img {
     text-align: center;
     color: #2e2f42;
 }
-.title-hero, .title-portfolio {
+.title-hero {
     background-color: #F4F4FD;
     text-transform: capitalize;
 }
@@ -195,6 +195,7 @@ img {
 }
 .container-portfolio-name {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .item-hero:first-child {
     border-radius: 0 0 4px 4px;
@@ -214,6 +215,9 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.title-portfolio-name {
+    margin-bottom: 8px;
+}
 .item-hero {
     flex-basis: calc((100% - 3 * 24px) / 4);
     flex-shrink: 0;
@@ -229,9 +233,10 @@ margin-bottom: 8px;
     padding: 32px 0;
 }
 .list-portfolio {
-display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     justify-content: flex-start;
 }
 .item-portfolio {
