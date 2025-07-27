@@ -92,7 +92,9 @@ img {
 /* section 1 */
 .section-title {
     background-color: #2e2f42;
-    padding: 188px 0 188px 0;
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .container-title {
     width: 1440px;
@@ -216,10 +218,11 @@ margin-bottom: 8px;
     flex-basis: calc((100% - 3 * 24px) / 4);
     flex-shrink: 0;
     flex-grow: 0;
-    /* text-align: center; */
+    text-align: center;
     background-color: #FFFFFF;
 }
 .text-hero {
+    text-align: center;
     padding-top: 8px;
 }
 .name-hero {
